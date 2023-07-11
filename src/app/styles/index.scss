@@ -1,0 +1,7 @@
+@import 'reset';
+@import 'mixins/mixins';
+
+body {
+  font: var(--font-m);
+  color: var(--color-main);
+}
