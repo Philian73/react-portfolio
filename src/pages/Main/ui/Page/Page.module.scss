@@ -4,3 +4,26 @@
   min-height: 100vh;
   background-color: #ffd4f0;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
+  border: 1px solid;
+}
+
+.body {
+  width: rem(300);
+  background-color: #f7f7f7;
+}
+
+.images {
+  width: rem(300);
+  height: rem(400);
+  background-color: #f7f7f7;
+}
