@@ -46,25 +46,3 @@
   justify-content: space-between;
   border: 1px solid;
 }
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width: rem(250);
-
-  text-align: center;
-
-  background-color: #f7f7f7;
-
-  & > *:not(:last-child) {
-    margin-bottom: em(12);
-  }
-}
-
-.icon {
-  width: rem(60);
-  height: rem(60);
-  background-color: #eeeef5;
-}
