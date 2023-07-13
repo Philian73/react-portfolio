@@ -1,4 +1,4 @@
-import { Skill } from '../../../../entities/Skill/ui/Skill'
+import { Skill } from '../../../../entities/Skill'
 import { Header } from '../../../../widgets/Header'
 
 import cls from './Page.module.scss'
