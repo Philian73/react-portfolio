@@ -1,14 +1,17 @@
 @import '../../../../app/styles/mixins/mixins';
 
 .mainBlock {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #ffd4f0;
 }
 
-.container {
+.mainBlock_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  height: 100%;
+
   border: 1px solid;
 }
 
@@ -21,4 +24,47 @@
   width: rem(300);
   height: rem(400);
   background-color: #f7f7f7;
+}
+
+.skillsBlock {
+  height: 100vh;
+  background-color: #d4ffc0;
+}
+
+.skillsBlock_container {
+  height: 100%;
+  border: 1px solid;
+}
+
+.title {
+  text-align: center;
+  background-color: #eeeef5;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: rem(250);
+
+  text-align: center;
+
+  background-color: #f7f7f7;
+
+  & > *:not(:last-child) {
+    margin-bottom: em(12);
+  }
+}
+
+.icon {
+  width: rem(60);
+  height: rem(60);
+  background-color: #eeeef5;
 }
