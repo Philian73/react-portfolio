@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@it-incubator/eslint-config": "^0.1.3",
+    "@it-incubator/prettier-config": "^0.1.2",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
