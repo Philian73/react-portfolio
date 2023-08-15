@@ -2,7 +2,7 @@ import { forwardRef, memo, Ref, SVGProps } from 'react'
 
 import { SvgIdsType } from './'
 
-import icons from '@/app/assets/icons/sprite.svg'
+import icons from '@/assets/icons/sprite.svg'
 
 const SvgComponent = (
   { id, ...rest }: SVGProps<SVGSVGElement> & { id: SvgIdsType },
