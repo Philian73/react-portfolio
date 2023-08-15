@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "format": "prettier --write src",
     "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --no-error-on-unmatched-pattern",
-    "tsc:watch": "tsc --watch"
+    "tsc:watch": "tsc --watch",
+    "svg-type": "node src/shared/lib/svg/generateSvgTypes.cjs"
   },
   "dependencies": {
     "react": "^18.2.0",
